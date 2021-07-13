@@ -1,0 +1,81 @@
+html,
+body,
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  text-align: center;
+}
+
+button,
+input[type='submit'] {
+  background-color: magenta;
+  border: 5px solid #ff99ff;
+  color: white;
+  margin: 0 0.5em;
+  padding: 1em;
+  outline: none;
+}
+
+button:hover,
+input[type='submit']:hover {
+  background-color: #e600e6;
+}
+
+button:active,
+input[type='submit']:active {
+  background-color: #cc00cc;
+}
+
+input {
+  padding: 1em;
+}
+
+input:not([type='submit']) {
+  display: block;
+  margin: 0.5em;
+}
+
+form {
+  padding: 0.5em;
+  margin: 1em 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+form label {
+  text-align: center;
+  display: block;
+  margin-bottom: 0.5em;
+}
+
+.Counter {
+  border: 5px solid #ffccff;
+  font-weight: 700;
+  margin: 2em auto;
+  padding: 1em;
+  width: 600px;
+}
+
+.count {
+  font-size: 8em;
+  text-align: center;
+}
+
+.controls {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+/*# sourceMappingURL=index.css.map */
